@@ -1,0 +1,42 @@
+{
+  "qewd_up": true,
+  "orchestrator": {
+    "qewd": {
+      "serverName": "Helm Orchestrator",
+      "poolSize": 4
+    }
+  },
+  "microservices": [
+    {
+      "name": "mpi_service",
+      "qewd": {
+        "serverName": "Master Patient Index MicroService",
+        "poolSize": 4
+      }
+    },
+    {
+      "name": "auth_service",
+      "qewd": {
+        "serverName": "Authentication MicroService",
+        "poolSize": 4
+      }
+    },
+    {
+      "name": "openehr_service",
+      "qewd": {
+        "serverName": "OpenEHR MicroService",
+        "poolSize": 4
+      }
+    },
+    {
+      "name": "discovery_service",
+      "qewd": {
+        "serverName": "Discovery MicroService",
+        "poolSize": 4
+      }
+    }
+  ],
+  "jwt": {
+    "secret": "a895aa14-6750-4a33-964b-179a57bc295d"
+  }
+}
