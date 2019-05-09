@@ -33,8 +33,8 @@
     "auth": {
       "host": "https://devauth.discoverydataservice.net",
       "path": "/auth/realms/endeavour/protocol/openid-connect/token",
-      "username": "alannicol",
-      "password": "666Maiden_1",
+      "username": "",
+      "password": "",
       "client_id": "eds-data-checker",
       "grant_type": "password"
     },
